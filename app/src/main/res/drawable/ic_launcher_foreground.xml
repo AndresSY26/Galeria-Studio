@@ -1,0 +1,144 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Ambient Studio Soft Glow -->
+    <path
+        android:pathData="M54,54m-38,0a38,38 0 1,1 76,0a38,38 0 1,1 -76,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="20"
+                android:startY="20"
+                android:endX="88"
+                android:endY="88"
+                android:type="radial"
+                android:gradientRadius="42">
+                <item android:color="#356366F1" android:offset="0.0" />
+                <item android:color="#00000000" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Layer 1: Background Photo Card (Stacked Tilt) -->
+    <path
+        android:pathData="M34,26 L74,26 C78.4,26 82,29.6 82,34 L82,74 C82,78.4 78.4,82 74,82 L34,82 C29.6,82 26,78.4 26,74 L26,34 C26,29.6 29.6,26 34,26 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#30FFFFFF"
+        android:fillColor="#151E293B" />
+
+    <!-- Layer 2: Main Photographic Viewport Card Frame -->
+    <path
+        android:pathData="M30,30 L78,30 C82.4,30 86,33.6 86,38 L86,76 C86,80.4 82.4,84 78,84 L30,84 C25.6,84 22,80.4 22,76 L22,38 C22,33.6 25.6,30 30,30 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="22"
+                android:startY="30"
+                android:endX="86"
+                android:endY="84"
+                android:type="linear">
+                <item android:color="#EE1E293B" android:offset="0.0" />
+                <item android:color="#FA0F172A" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    
+    <!-- Photographic Frame Border -->
+    <path
+        android:pathData="M30,30 L78,30 C82.4,30 86,33.6 86,38 L86,76 C86,80.4 82.4,84 78,84 L30,84 C25.6,84 22,80.4 22,76 L22,38 C22,33.6 25.6,30 30,30 Z"
+        android:strokeWidth="2.0"
+        android:strokeColor="#60FFFFFF"
+        android:fillColor="#00000000" />
+
+    <!-- Photographic Landscape Sun / Aperture Light -->
+    <path
+        android:pathData="M68,43m-6,0a6,6 0 1,1 12,0a6,6 0 1,1 -12,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="62"
+                android:startY="37"
+                android:endX="74"
+                android:endY="49"
+                android:type="linear">
+                <item android:color="#FFFBBF24" android:offset="0.0" />
+                <item android:color="#FFF43F5E" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Scenic Mountain Silhouette / Dynamic Chroma Geometry inside Gallery Frame -->
+    <path
+        android:pathData="M23,76 L38,55 C39.5,53 42.5,53 44,55 L53,67 C54.2,68.5 56.5,68.5 57.7,67 L66,56 C67.5,54 70.5,54 72,56 L85,73 L85,76 C85,80.4 81.4,84 77,84 L31,84 C26.6,84 23,80.4 23,76 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="23"
+                android:startY="54"
+                android:endX="85"
+                android:endY="84"
+                android:type="linear">
+                <item android:color="#FF6366F1" android:offset="0.0" />
+                <item android:color="#FF06B6D4" android:offset="0.55" />
+                <item android:color="#FF10B981" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Central High-Precision Optical Lens Aperture Ring -->
+    <path
+        android:pathData="M54,54m-18,0a18,18 0 1,1 36,0a18,18 0 1,1 -36,0"
+        android:strokeWidth="3.2">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="36"
+                android:startY="36"
+                android:endX="72"
+                android:endY="72"
+                android:type="linear">
+                <item android:color="#FFFFFFFF" android:offset="0.0" />
+                <item android:color="#FF38BDF8" android:offset="0.5" />
+                <item android:color="#FF818CF8" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Aperture Core with High-End Glass Reflection -->
+    <path
+        android:pathData="M54,54m-12,0a12,12 0 1,1 24,0a12,12 0 1,1 -24,0"
+        android:fillColor="#10172A" />
+
+    <!-- Aperture Blades Shutter Geometry -->
+    <path
+        android:pathData="M48,46 L59,49 L55,60 L44,57 Z"
+        android:fillColor="#256366F1" />
+    <path
+        android:pathData="M54,44 L63,52 L57,63 L48,55 Z"
+        android:fillColor="#2006B6D4" />
+
+    <!-- Glass Specular Highlight Arc -->
+    <path
+        android:pathData="M46,47 A10,10 0 0,1 62,47"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeColor="#F0FFFFFF"
+        android:fillColor="#00000000" />
+
+    <!-- Precision Sparkle / AI Studio Star on Top-Right Corner -->
+    <path
+        android:pathData="M78,22 L80.5,15 L83,22 L90,24.5 L83,27 L80.5,34 L78,27 L71,24.5 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="71"
+                android:startY="15"
+                android:endX="90"
+                android:endY="34"
+                android:type="linear">
+                <item android:color="#FFFFFFFF" android:offset="0.0" />
+                <item android:color="#FFFBBF24" android:offset="0.6" />
+                <item android:color="#FFF43F5E" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+</vector>

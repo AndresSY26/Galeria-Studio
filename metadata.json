@@ -1,0 +1,7 @@
+{
+  "name": "Galería Studio",
+  "description": "Galería fotográfica profesional con gestión inteligente de almacenamiento local y bóveda segura cifrada E2EE en la nube.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
